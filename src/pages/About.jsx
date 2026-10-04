@@ -2,7 +2,7 @@ import React from 'react';
 import FadeIn from '../components/shared/FadeIn';
 import SectionHeading from '../components/shared/SectionHeading';
 import GoldButton from '../components/shared/GoldButton';
-import { Shield, Scale, Landmark, Lock, Target, TrendingUp } from 'lucide-react';
+import { Shield, Scale, Landmark, Lock, Target, TrendingUp, FileBadge } from 'lucide-react';
 
 const BOARDROOM_IMAGE = 'https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b8610322e57832d39d21df/63dcff97e_generated_289d83e9.png';
 
@@ -13,6 +13,9 @@ const principles = [
   { icon: Lock, title: 'Discretion & Confidentiality', desc: 'All engagements are treated with the highest level of confidentiality.' },
   { icon: Target, title: 'Execution Realism', desc: 'We deliver strategies that are implementable, not theoretical.' },
   { icon: TrendingUp, title: 'Long-Term Capital Formation', desc: 'Our focus is building enduring value, not short-term market positioning.' },
+  { icon: FileBadge, title: 'Services Licence', desc: 'LICENCE NO: 47038205. ACTIVITY: 1. Innovation & Artificial Intelligence Research; 2. Consultancies Software House; 3. Computer Systems and Software Designing.' },
+  { icon: FileBadge, title: 'Media Licence', desc: 'LICENCE NO: 17010521. ACTIVITY: Artificial Intelligence Developer.' },
+  { icon: FileBadge, title: 'Commercial Licence RAKIA - UAE', desc: 'ACTIVITY: Commercial Brokers. LICENCE NO: RAKIA51FZ307125749.' },
 ];
 
 const divisions = [
