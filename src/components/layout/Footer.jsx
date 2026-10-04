@@ -80,7 +80,27 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 mt-12 pt-10 pb-4">
+        <div className="border-t border-white/5 mt-12 pt-12 pb-4">
+          <div className="flex items-center justify-center gap-12 lg:gap-20 flex-wrap">
+            <img
+              src="https://media.base44.com/images/public/69b8610322e57832d39d21df/7f02a60b6_isoaisystem.webp"
+              alt="ISO AI Management System Certified"
+              className="h-20 w-20 lg:h-24 lg:w-24 object-contain rounded-full"
+            />
+            <img
+              src="https://media.base44.com/images/public/69b8610322e57832d39d21df/dc55a2847_iso20022.webp"
+              alt="ISO 20022 Certified"
+              className="h-20 w-20 lg:h-24 lg:w-24 object-contain rounded-full"
+            />
+            <img
+              src="https://media.base44.com/images/public/69b8610322e57832d39d21df/f2ef86861_mmrl.webp"
+              alt="MMRL"
+              className="h-20 w-20 lg:h-24 lg:w-24 object-contain rounded-full"
+            />
+          </div>
+        </div>
+
+        <div className="border-t border-white/5 pt-10 pb-4">
           <div className="flex flex-col md:flex-row md:items-start gap-2 md:gap-10 mb-8">
             <span className="text-gold/60 text-xs uppercase tracking-widest font-sans-body shrink-0">Our Office</span>
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-3 text-white/35 text-xs font-sans-body">
